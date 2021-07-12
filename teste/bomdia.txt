@@ -1,0 +1,7 @@
+Bom dia tudo bem? Hoje você vai aprender sobre historia do brasil
+Var bondai = 10
+imagemColletionView
+::
+Hoje vamos dar continuidade a história do brasil
+imagemColl
+Func oi () {\n alo\n}

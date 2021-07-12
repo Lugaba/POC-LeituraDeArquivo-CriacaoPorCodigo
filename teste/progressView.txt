@@ -1,0 +1,11 @@
+1. Crie uma nova ProgressView no storyboard
+2. Conecte essa View no código
+@IBOutlet weak var progressView: UIProgressView!}
+3. Crie uma constante que guardará a quantidade de etapas que essa View vai ter
+let progresso = Progress(totalUnitCount: 10)}
+4. Crie um botão e conecte sua ação no código
+5. Nesta função toda vez que clicar no botão o progresso será acrescentado em 1, vamos transformar o progresso atual em um número Float e depois vamos setar o Progresso na View
+@IBAction func didTapStartProgress(_ sender: Any) {\n    if progresso.isFinished { // reiniciando o progresso\n    progressView.progress = 0\n    progresso = Progress(totalUnitCount: 10)\n } else {\n    self.progresso.completedUnitCount += 1 // +1 etapa\n    let progressFloat = Float(self.progresso.fractionCompleted) // Transforma em Float\n    self.progressView.setProgress(progressFloat, animated: true) // Atualiza progresso\n }\n // caso queira fazer com tempo //\n Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (timer) in // guard self.progresso.isFinished == false else {\n // timer.invalidate()\n // return\n // }\n // self.progresso.completedUnitCount += 1\n // let progressFloat = Float(self.progresso.fractionCompleted)\n // self.progressView.setProgress(progressFloat, animated: true)\n // }\n }
+::
+Bom dia
+group2

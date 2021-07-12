@@ -13,6 +13,8 @@
 		DF5830FD269B47DA006B3A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5830FB269B47DA006B3A7E /* Main.storyboard */; };
 		DF5830FF269B47DD006B3A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5830FE269B47DD006B3A7E /* Assets.xcassets */; };
 		DF583102269B47DD006B3A7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF583100269B47DD006B3A7E /* LaunchScreen.storyboard */; };
+		DF583110269C7E9E006B3A7E /* bomdia.txt in Resources */ = {isa = PBXBuildFile; fileRef = DF58310F269C7E9E006B3A7E /* bomdia.txt */; };
+		DF583112269C8210006B3A7E /* progressView.txt in Resources */ = {isa = PBXBuildFile; fileRef = DF583111269C8210006B3A7E /* progressView.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DF5830FE269B47DD006B3A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF583101269B47DD006B3A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF583103269B47DD006B3A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF58310F269C7E9E006B3A7E /* bomdia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bomdia.txt; path = ../../bomdia.txt; sourceTree = "<group>"; };
+		DF583111269C8210006B3A7E /* progressView.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = progressView.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				DF5830FE269B47DD006B3A7E /* Assets.xcassets */,
 				DF583100269B47DD006B3A7E /* LaunchScreen.storyboard */,
 				DF583103269B47DD006B3A7E /* Info.plist */,
+				DF58310F269C7E9E006B3A7E /* bomdia.txt */,
+				DF583111269C8210006B3A7E /* progressView.txt */,
 			);
 			path = teste;
 			sourceTree = "<group>";
@@ -124,6 +130,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF583110269C7E9E006B3A7E /* bomdia.txt in Resources */,
+				DF583112269C8210006B3A7E /* progressView.txt in Resources */,
 				DF583102269B47DD006B3A7E /* LaunchScreen.storyboard in Resources */,
 				DF5830FF269B47DD006B3A7E /* Assets.xcassets in Resources */,
 				DF5830FD269B47DA006B3A7E /* Main.storyboard in Resources */,
